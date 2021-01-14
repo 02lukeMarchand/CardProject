@@ -16,4 +16,16 @@
         android:fontFamily="sans-serif-medium"
         android:textSize="42sp"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/from_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="From Luke"
+        android:padding="60dp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="32sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
 </RelativeLayout>
