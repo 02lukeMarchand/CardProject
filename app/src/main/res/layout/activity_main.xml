@@ -13,14 +13,19 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
-
+    <ImageView
+        android:id="@+id/glow_image"
+        android:src="@drawable/glow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" />
 
     <TextView
         android:id="@+id/thank_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Thank You!"
-        android:padding="80dp"
+        android:padding="100dp"
         android:textColor="@android:color/black"
         android:fontFamily="sans-serif-medium"
         android:textSize="42sp"
@@ -31,8 +36,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="From Luke"
-        android:padding="60dp"
-        android:textColor="@android:color/black"
+        android:padding="20dp"
+        android:textColor="@android:color/white"
         android:fontFamily="sans-serif-medium"
         android:textSize="32sp"
         android:layout_centerHorizontal="true"
