@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/background_image"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
     <TextView
         android:id="@+id/thank_textview"
         android:layout_width="wrap_content"
@@ -28,4 +37,6 @@
         android:textSize="32sp"
         android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"/>
+
+
 </RelativeLayout>
